@@ -65,4 +65,4 @@ To install/run new Containers, they need to be added to the Cumulocity Software 
 
 Here's an example:
 
-![container software repository](./imgs/container-sw-repo.png)
+![container software repository](./imgs/container-repo.png)
