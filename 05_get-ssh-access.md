@@ -6,21 +6,21 @@ Users are able to login to Devices in Cumulocity via SSH. This step explains how
 
 There is no installation needed, the functionality is already available on the Device and Cloud by default. All you need to make sure is that your User has the proper `Remote Access Admin` permission. To set this permission, go to Administration > Accounts > Roles and activate the Remote-Access Permission on your User Role:
 
-![device registration](./imgs/remote-access-permission.png)
+![remote access permission](./imgs/remote-access-permission.png)
 
 Now go to your Device within Device Management. You should see now the `Remote Access` Tab on your thin-edge Device:
 
-![device registration](./imgs/remote-access-tab.png)
+![remote access tab](./imgs/remote-access-tab.png)
 
 ## WebSSH
 
 Let's create our first connection via webSSH, configure:
 
-![device registration](./imgs/web-ssh-config.png)
+![web ssh config](./imgs/web-ssh-config.png)
 
 And connect within your Browser:
 
-![device registration](./imgs/remote-access-connect.png)
+![remote access connect browser](./imgs/remote-access-connect.png)
 
 
 ## Native/Passthrough SSH
@@ -30,7 +30,7 @@ See here for the technical concept behind this:
 
 To use it, first create a passthrough configuration. All you need to set is target host and port:
 
-![device registration](./imgs/passthrough-config.png)
+![ssh passthrough config](./imgs/passthrough-config.png)
 
 
 Next, use the great [go-c8y-cli](https://goc8ycli.netlify.app/docs/introduction/) tool. It's a CLI that let's you interact with the Cumulocity API in general, it also supports the remote SSH feature. 

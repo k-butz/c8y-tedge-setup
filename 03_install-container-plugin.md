@@ -16,7 +16,7 @@ To do so:
 
 * Install the plugin to your cloned Device Management:
 
-![device registration](./imgs/c8y-container-plugin.png)
+![container plugin](./imgs/c8y-container-plugin.png)
 
 # Install tedge-container-plugin on the Device
 
@@ -55,4 +55,14 @@ In case you see "Cannot connect to docker daemon" in the journal, make sure dock
 
 To test if everything is working, let's run a sample container via `sudo docker run -d --name my-redis -p 6379:6379 redis`. Once it's running, go to your Cumulocity Device and see it shown in Container Tab:
 
-![device registration](./imgs/container-tab.png)
+![container info tab](./imgs/container-tab.png)
+
+To install/run new Containers, they need to be added to the Cumulocity Software Repository. Follow two rules here:
+
+* every container needs to have the software type `container` set, every container group the respective type `container-group`
+
+* the version field needs to be `{image-name}:{image tag}` 
+
+Here's an example:
+
+![container software repository](./imgs/container-sw-repo.png)
