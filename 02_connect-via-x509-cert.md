@@ -75,3 +75,5 @@ And we're good. Now you'll see the Device in Cumulocity exists:
 And it lists the issues x.509 certificate in the respective Tab:
 
 ![device registration](./imgs/x509-certificate.png)
+
+From this moment on, thin-edge.io will monitor the expiration time of your certificate and auto-renew it before expiry. If the Device is not online before the certificate expires, it needs to be onboarded again (same steps as above). 
