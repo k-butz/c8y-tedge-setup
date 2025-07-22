@@ -17,3 +17,11 @@ A repository to document the installation steps for my thin-edge.io setup. Setup
 * Install/Configure the tedge-inventory-plugin. A plugin that gives a very easy option to maintain Cloud Twin Properties
 
 Please find the details in the respective document.
+
+# Notes and References
+
+* A very good reference for a full-featured thin-edge installation is the [tedge-demo-container](https://github.com/thin-edge/tedge-demo-container). See [here](https://github.com/thin-edge/tedge-demo-container?tab=readme-ov-file#what-is-included) the list for what is included.
+
+* Link for [thin-edge.io documentation](https://thin-edge.github.io/thin-edge.io/)
+
+* Link to [Cumulocity](https://cumulocity.com/docs/)
