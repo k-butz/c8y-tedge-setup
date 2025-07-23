@@ -1,6 +1,6 @@
 # About
 
-Users are able to login to Devices in Cumulocity via SSH. This step explains how to set this up. 
+Users are able to login to Devices in Cumulocity via SSH. This step explains how to set this up. See here for the technical concept behind this: [Cloud Remote Access API](https://cumulocity.com/docs/cloud-remote-access/cra-introduction/)
 
 # Instruction
 
@@ -26,7 +26,6 @@ And connect within your Browser:
 ## Native/Passthrough SSH
 
 A much more developer-friendly and performant way to connect to your Device via SSH is the passthrough option. This allows you to connect to the Device from your local terminal. 
-See here for the technical concept behind this: 
 
 To use it, first create a passthrough configuration. All you need to set is target host and port:
 
