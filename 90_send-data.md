@@ -76,6 +76,8 @@ To be able to see these properties, go to the "Info" Tab of your Cloud Device an
 
 ![Cloud Twin Properties](./imgs/cloud-twin-properties.png)
 
+> Note: If you see your properties changing, reason could be the `tedge-inventory-plugin`. It comes with default scripts to update properties about Hardware, Certificate and OS. They are periodically executed. If you want to turn them off, have a look to the README [here](https://github.com/thin-edge/tedge-inventory-plugin). 
+
 
 ## Create and register child device
 
