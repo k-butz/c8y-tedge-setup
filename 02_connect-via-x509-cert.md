@@ -15,7 +15,7 @@ TENANT_URL=example.eu-latest.cumulocity.com
 # Can be any value, but must be unique. Typically this is the serial number my-of your hardware
 DEVICE_IDENTIFIER=my-dev-kb-0001
 
-# Can be any password, choose freely - but make sure it adheres with the password policy of Cumulocity
+# Can be any password, choose freely - but make sure it adheres to the password policy of Cumulocity
 ONE_TIME_PASSWORD="one-time-password-here"
 
 sudo tedge config set c8y.url "${TENANT_URL}"
