@@ -37,3 +37,13 @@ echo "nested={\"values\":\"ok\"}"
 Once this script is put in `/usr/share/tedge-inventory/scripts.d/` it will be executed regulary by thin-edge, and thin-edge will automatically update the properties `mymetric`, `another_value` and `nested` on your cloud twin.
 
 **Note**: This is a useful plugin to set Cloud Twin properties. Of course, that is not the only option. The other options are e.g. to put your properties in the `inventory.json` file on your device (good for static properties) or to update your twin properties by sending data to the MQTT broker (good for dynamically changing properties). 
+
+# Display your Device properties in the UI
+
+By default, each device has a "Device Data" widget on it's Info page. However, this widget does not show all properties by default, the User needs to select them before they are shown. So to have a look at them:
+
+* Go to your Device in Device Management and open Info Page
+
+* Click on "Edit Dashboard" (top left of your Dashboard) and Edit Widget (top right of your Widget)
+
+* Click on "+ Add Property". This screen shows all available properties, select the one's you're interested in
